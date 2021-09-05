@@ -1,0 +1,39 @@
+command:
+  cannot_be_used_by_console: Aquesta comanda no es pot executar a la consola. Ho sento!
+  cannot_edit_owner: '&4No pots canviar el propietari de la protecció. Destrueix el cartell.'
+  line_number_out_of_bounds: '&4Si us plau, insereix un nombre entre 2 i 4 (ambdós inclosos).'
+  no_permission: '&4No tens permís per executar aquesta comanda. Ho sento!'
+  no_sign_selected: '&4Abans has de seleccionar el cartell d''un dels teus blocs protegits fent-li clic dret.'
+  player_name_too_long: '&4El nom del jugador té més de 16 caràcters i no cap al cartell.
+  També és més llarg del que permet Mojang.'
+  plugin_reloaded: '&bS''han recarregat els arxius de configuració!'
+  sign_no_longer_part_of_protection: '&4El cartell seleccionat ja no pertany a un bloc protegit.'
+  updated_sign: '&bS''ha actualitzat el cartell!'
+protection:
+  add_more_users_sign_instead: '&4Només pot haver un cartell [Privat] a la protecció.
+    En comptes d''això, afegeix un cartell [Més Usuaris].'
+  bypassed: '&bAcabes d''eludir una protecció de {0}.'
+  cannot_change_sign: '&4No pots canviar un cartell a prop d''un recipient reclamat.'
+  chest_hint: '&bPosa un cartell en aquest cofre per protegir-lo.'
+  claimed_container: '&bHas reclamat aquest recipient. No hi pot accedir ningú més.'
+  claimed_manually: '&bS''ha creat una reclamació. Només la gent registrada al cartell hi pot accedir.'
+  expired: '&bLa protecció d''aquest bloc ha caducat degut a la inectivitat del propietari.'
+  in_wilderness: '&4No pots crear una protecció aquí: et trobes en terres salvatges.'
+  is_claimed_by: '&b{0} ha reclamat aquest bloc.'
+  no_access: '&4No pots fer servir aquest bloc, està protegit per {0}.'
+  no_permission_for_claim: '&4No tens permís per reclamar aquest recipient, ho sento.'
+  not_nearby: '&4No hi ha cap bloc protegible a prop. Fes (Shift)Clic Dret a un recipient
+    amb un cartell a la mà per protegir-lo.'
+  selected_sign: '&bHas seleccionat un cartell. Escriu "/blocklocker <número de línia> <nom>" per
+    editar-lo. O alternativament, afegeix això: &n[Redstone]&r&6 &n[Tothom]&r&6.}'
+tag:
+  everyone: Tothom
+  more_users: '[Més Usuaris]'
+  private: '[Privat]'
+  redstone: Redstone
+  timer: Temporitzador
+updater:
+  more_information: '&bMés informació: {0}'
+  unsupported_server: '&4L'última versió de BlockLocker (versió {0}) ja no és
+    compatible amb aquesta versió de Minecraft, només Minecraft {1}.'
+  update_available: '&6 Hi ha disponible una actualització de BlockLocker (versió {0}) per descarregar manualment.'
